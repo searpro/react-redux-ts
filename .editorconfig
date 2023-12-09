@@ -1,0 +1,5 @@
+#editorconfig using 2 spaces
+[/**/*.{js,jsx,ts,tsx,css,scss,html,md,json,yml,yaml}]
+indent_style = tab
+indent_size = 2
+

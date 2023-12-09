@@ -1,0 +1,41 @@
+/* App.css -- You are free to delete everything in this file */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1126px;
+	margin: 0 auto;
+}
+
+.container-fullwidth {
+	width: calc(100vw - 8px);
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.item-enter {
+	opacity: 0;
+}
+
+.item-enter-active {
+	opacity: 1;
+	transition: opacity 200ms ease-in;
+}
+
+.item-exit {
+	opacity: 1;
+}
+
+.item-exit-active {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
