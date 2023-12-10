@@ -31,7 +31,7 @@ This is a customized version of the official **Vite react-ts preset**
 
 **Getting started**
 
-    $ npx create-react-searpro <your-app-name>
+    $ npx @searpro/create-react <your-app-name>
     .....
     .....
     $ cd <your-app-name> && npm run dev
@@ -47,7 +47,7 @@ This is a customized version of the official **Vite react-ts preset**
     
     LINT
     $ npm run lint 
-    $ npm run lin:fix #to fix lint errors
+    $ npm run lint:fix #to fix lint errors
     
     TEST
     $ npm test
